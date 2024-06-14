@@ -1,0 +1,161 @@
+.headerWarp {
+  width: 100%;
+  height: 80px;
+  background-color: #0e1013;
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  color: #fefefe;
+}
+
+.GeoLogo {
+  width: 227px;
+  transform: translateY(3px);
+}
+
+.GnbWarp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+}
+
+.GnbWarp > div {
+  margin: 0px 20px;
+}
+.language {
+  font-size: 18px;
+}
+.KrFlag,
+.EnFlag {
+  margin-left: 7px;
+  width: 20px;
+  transform: translateY(3px);
+}
+.componyInfo {
+  position: relative;
+  height: 35px;
+  display: flex;
+  align-items: center;
+}
+
+.componyInfo:hover {
+  color: #0475f0;
+}
+
+.infoWarp {
+  position: absolute;
+  top: 100%;
+  left: -20px;
+  background-color: #0e1013;
+  padding: 20px;
+  z-index: 10;
+  width: 100%;
+  border-radius: 10px;
+  min-width: 90px;
+  line-height: 200%;
+  color: #fefefe;
+  border: 1px solid #0476f04b;
+}
+
+.infoWarp > div:hover {
+  color: #0475f0;
+}
+
+.businessInfo {
+  position: relative;
+  height: 35px;
+  display: flex;
+  align-items: center;
+}
+
+.businessInfo:hover {
+  color: #0475f0;
+}
+
+.BusinessWarp {
+  position: absolute;
+  top: 100%;
+  left: -20px;
+  background-color: #0e1013;
+  padding: 20px;
+  z-index: 10;
+  width: 100%;
+  border-radius: 10px;
+  min-width: 90px;
+  line-height: 200%;
+  color: #fefefe;
+  border: 1px solid #0476f04b;
+}
+
+.BusinessWarp > div:hover {
+  color: #0475f0;
+}
+
+.productInfo {
+  position: relative;
+  height: 35px;
+  display: flex;
+  align-items: center;
+}
+
+.productInfo:hover {
+  color: #0475f0;
+}
+
+.productWarp {
+  position: absolute;
+  top: 100%;
+  left: -20px;
+  background-color: #0e1013;
+  padding: 20px;
+  z-index: 10;
+  width: 100%;
+  border-radius: 10px;
+  min-width: 90px;
+  line-height: 200%;
+  color: #fefefe;
+  border: 1px solid #0476f04b;
+}
+
+.productWarp > div:hover {
+  color: #0475f0;
+}
+.inquiry:hover {
+  color: #0475f0;
+}
+
+.language {
+  position: relative;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  outline: none;
+}
+
+.language:hover {
+  color: #0475f0;
+}
+
+.languageWarp {
+  position: absolute;
+  top: 100%;
+  left: -20px;
+  background-color: #0e1013;
+  padding: 20px;
+  z-index: 10;
+  width: 100%;
+  border-radius: 10px;
+  min-width: 70px;
+  line-height: 200%;
+  color: #fefefe;
+  border: 1px solid #0476f04b;
+}
+
+.languageWarp:hover {
+  color: #0475f0;
+}
+.inquiry:hover {
+  color: #0475f0;
+}

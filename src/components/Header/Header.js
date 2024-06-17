@@ -50,9 +50,7 @@ function Header() {
 
   return (
     <div className="headerWrap">
-      <a href="#">
-        <img src={GeomaticLogo} alt="logo" className="GeoLogo" />
-      </a>
+      <img src={GeomaticLogo} alt="logo" className="GeoLogo" />
       <div className="GnbWrap">
         <div
           className="componyInfo"

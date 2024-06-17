@@ -1,4 +1,5 @@
 import "./static/Header.css";
+import React from "react";
 import GeomaticLogo from "../../assets/img/GeomaticLogo.png";
 import KrFlag from "../../assets/img/krFlag.png";
 import EnFlag from "../../assets/img/enFlag.png";

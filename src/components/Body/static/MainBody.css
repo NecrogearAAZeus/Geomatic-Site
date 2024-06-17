@@ -2,21 +2,25 @@
   background-color: #0e1013;
   height: calc(100svh - 100px);
   min-height: 600px;
-  width: 100%;
   box-sizing: border-box;
   display: flex;
   justify-content: center;
   min-width: 1380px;
   transform: translateY(-20px);
 }
+
 .mainFontWrap {
-  width: 100%;
   height: calc(100svh - 100px);
   position: absolute;
   width: 1380px;
   display: flex;
   align-items: center;
   z-index: 50;
+}
+
+.mainFontBox > .slider-container {
+  height: 501px;
+  width: 100%;
 }
 
 .mainFontBox {
@@ -57,6 +61,14 @@
 .mainTextSubTitle2 {
   margin-bottom: 5px;
 }
+.mainTextSubTitle3 {
+  font-size: 60px;
+  font-family: industry, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 60px;
+  margin-bottom: 10px;
+}
 
 .MainTextTitle {
   font-size: 150px;
@@ -74,8 +86,8 @@
   line-height: 20px;
   padding: 10px 10px;
   border: 1px solid #fefefecd;
-  width: 92px;
   border-radius: 5px;
+  display: inline-block;
 }
 
 .TitleinfoText:hover {
@@ -91,15 +103,15 @@
   height: 600px;
   overflow: hidden;
 }
+.MainImgContainer > div:last-child {
+  height: 600px;
+  width: 910px;
+}
 
 .mainEmptyBox {
   width: 100%;
   position: relative;
   min-width: 390px;
-}
-.test::before {
-  content: "\00a0";
-  display: block;
 }
 .mainImgWrap {
   overflow: hidden;
@@ -107,15 +119,24 @@
   display: flex;
   align-items: center;
 }
-.mainImgBox {
+.slider-container {
   overflow: hidden;
-  height: calc(100svh - 100px);
-  display: flex;
-  align-items: center;
 }
-
+.slideText {
+  height: 501px;
+}
+.imgCover {
+  width: 910px !important;
+  height: 600px;
+  overflow: hidden;
+}
+.slick-list,
+.slick-track {
+  height: 600px !important;
+}
 .MainImg {
-  height: 120%;
+  height: 600px;
+  object-fit: cover;
 }
 
 .buttonWrap {
@@ -137,4 +158,7 @@
 }
 .button5 {
   margin-right: 0px;
+}
+.slick-arrow {
+  display: none !important;
 }

@@ -4,7 +4,7 @@ import MainImgBG1 from "../../assets/img/mainImgBg1.png";
 import { useState } from "react";
 
 function MainBody() {
-  const [ImgSlider, SetImgSlider] = useState(1);
+  const [ImgSlider] = useState(1);
 
   function MainImgBG() {
     return (

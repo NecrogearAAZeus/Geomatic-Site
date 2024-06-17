@@ -11,7 +11,7 @@ function Header() {
   const [languageHovered, setLanguageHovered] = useState(false);
   function ComponyInfoMenu() {
     return (
-      <div className="infoWarp">
+      <div className="infoWrap">
         <div>인사말</div>
         <div>CI / BI</div>
         <div>연혁</div>
@@ -21,7 +21,7 @@ function Header() {
   }
   function BusinessMenu() {
     return (
-      <div className="BusinessWarp">
+      <div className="BusinessWrap">
         <div>Digital Tiwn</div>
         <div>Smart Farm</div>
         <div>연구 / 개발</div>
@@ -30,7 +30,7 @@ function Header() {
   }
   function ProductMenu() {
     return (
-      <div className="productWarp">
+      <div className="productWrap">
         <div>드론</div>
         <div>센서 / 카메라</div>
         <div>소프트웨어</div>
@@ -40,7 +40,7 @@ function Header() {
   function Language() {
     return (
       <div>
-        <div className="languageWarp">
+        <div className="languageWrap">
           EN
           <img src={EnFlag} alt="EnFlag" className="EnFlag" />
         </div>
@@ -49,11 +49,11 @@ function Header() {
   }
 
   return (
-    <div className="headerWarp">
+    <div className="headerWrap">
       <a>
         <img src={GeomaticLogo} alt="logo" className="GeoLogo" />
       </a>
-      <div className="GnbWarp">
+      <div className="GnbWrap">
         <div
           className="componyInfo"
           onMouseEnter={() => setComponyInfoHovered(true)}

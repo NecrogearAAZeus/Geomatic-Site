@@ -1,5 +1,6 @@
-.headerWarp {
+.headerWrap {
   width: 100%;
+  min-width: 1380px;
   height: 80px;
   background-color: #0e1013;
   padding: 0 40px;
@@ -7,6 +8,8 @@
   justify-content: space-between;
   box-sizing: border-box;
   color: #fefefe;
+  z-index: 100;
+  position: relative;
 }
 
 .GeoLogo {
@@ -14,23 +17,30 @@
   transform: translateY(3px);
 }
 
-.GnbWarp {
+.GnbWrap {
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 16px;
 }
 
-.GnbWarp > div {
+.GnbWrap > div {
   margin: 0px 20px;
 }
 .language {
   font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .KrFlag,
 .EnFlag {
   margin-left: 7px;
   width: 20px;
+  transform: translateY(1px);
+}
+
+.EnFlag {
   transform: translateY(3px);
 }
 .componyInfo {
@@ -44,7 +54,7 @@
   color: #0475f0;
 }
 
-.infoWarp {
+.infoWrap {
   position: absolute;
   top: 100%;
   left: -20px;
@@ -59,7 +69,7 @@
   border: 1px solid #0476f04b;
 }
 
-.infoWarp > div:hover {
+.infoWrap > div:hover {
   color: #0475f0;
 }
 
@@ -74,7 +84,7 @@
   color: #0475f0;
 }
 
-.BusinessWarp {
+.BusinessWrap {
   position: absolute;
   top: 100%;
   left: -20px;
@@ -89,7 +99,7 @@
   border: 1px solid #0476f04b;
 }
 
-.BusinessWarp > div:hover {
+.BusinessWrap > div:hover {
   color: #0475f0;
 }
 
@@ -104,7 +114,7 @@
   color: #0475f0;
 }
 
-.productWarp {
+.productWrap {
   position: absolute;
   top: 100%;
   left: -20px;
@@ -119,7 +129,7 @@
   border: 1px solid #0476f04b;
 }
 
-.productWarp > div:hover {
+.productWrap > div:hover {
   color: #0475f0;
 }
 .inquiry:hover {
@@ -138,7 +148,7 @@
   color: #0475f0;
 }
 
-.languageWarp {
+.languageWrap {
   position: absolute;
   top: 100%;
   left: -20px;
@@ -153,7 +163,7 @@
   border: 1px solid #0476f04b;
 }
 
-.languageWarp:hover {
+.languageWrap:hover {
   color: #0475f0;
 }
 .inquiry:hover {

@@ -10,11 +10,13 @@
   color: #fefefe;
   z-index: 100;
   position: relative;
+  align-items: center;
 }
 
 .GeoLogo {
-  width: 227px;
+  height: 60px;
   transform: translateY(3px);
+  object-fit: cover;
 }
 
 .GnbWrap {

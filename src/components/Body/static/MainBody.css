@@ -19,8 +19,13 @@
 }
 
 .mainFontBox > .slider-container {
-  height: 600px;
+  height: 505px;
   width: 100%;
+  overflow: hidden;
+}
+
+.mainFontBox > .slider-container .slick-list {
+  height: 505px;
 }
 
 .mainFontBox {
@@ -108,6 +113,7 @@
 .MainImgContainer > .slider-container {
   height: 600px;
   width: 910px;
+  overflow: hidden;
 }
 
 .mainEmptyBox {
@@ -152,19 +158,56 @@
 
 .buttonWrap > div {
   width: 50px;
-  height: 6px;
+  height: 8px;
   border-radius: 10px;
   margin-right: 10px;
   background-color: #fefefe;
   opacity: 0.4;
 }
+
 .buttonWrap > div:hover {
   opacity: 1;
   background-color: #0475f0;
 }
+
 .button5 {
   margin-right: 0px;
 }
+
 .slick-arrow {
   display: none !important;
+}
+
+.slick-dots {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  margin-left: 40px;
+  text-align: left;
+  transform: translatey(5px);
+}
+
+.slick-dots li {
+  margin: 0px 20px 0px 0px;
+}
+
+.slick-dots li button::before {
+  color: #fefefe;
+  font-size: 14px;
+  opacity: 0.4;
+}
+
+.slick-dots li button:hover::before {
+  color: #0475f0 !important;
+  opacity: 1 !important;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #0475f0 !important;
+  opacity: 1 !important;
+}
+
+.slick-dots li button:focus:before {
+  opacity: 0.4;
+  color: #fefefe;
 }

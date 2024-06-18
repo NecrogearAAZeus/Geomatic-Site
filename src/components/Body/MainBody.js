@@ -142,13 +142,6 @@ function MainBody() {
               </div>
             </Slider>
           </div>
-          {/* <div className="buttonWrap">
-            <div className="button1"></div>
-            <div className="button2"></div>
-            <div className="button3"></div>
-            <div className="button4"></div>
-            <div className="button5"></div>
-          </div> */}
         </div>
       </div>
       <div className="mainImgWrap">

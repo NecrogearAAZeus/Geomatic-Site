@@ -1,21 +1,21 @@
 .MainBodyWrap {
   background-color: #0e1013;
-  height: calc(100svh - 100px);
+  height: calc(100svh - 140px);
   min-height: 600px;
   box-sizing: border-box;
   display: flex;
   justify-content: center;
   min-width: 1380px;
-  transform: translateY(-20px);
 }
 
 .mainFontWrap {
-  height: calc(100svh - 100px);
+  height: calc(100svh - 140px);
   position: absolute;
   width: 1380px;
   display: flex;
   align-items: center;
   z-index: 50;
+  transform: translateY(-20px);
 }
 
 .mainFontBox > .slider-container {
@@ -122,9 +122,10 @@
   height: 600px;
 }
 .mainImgWrap {
-  height: calc(100svh - 100px);
+  height: calc(100svh - 140px);
   display: flex;
   align-items: center;
+  transform: translateY(-20px);
 }
 .imgWrap {
   height: 600px;
@@ -146,32 +147,6 @@
 .MainImg {
   height: 600px;
   object-fit: cover;
-}
-
-.buttonWrap {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  display: flex;
-  margin-left: 40px;
-}
-
-.buttonWrap > div {
-  width: 50px;
-  height: 8px;
-  border-radius: 10px;
-  margin-right: 10px;
-  background-color: #fefefe;
-  opacity: 0.4;
-}
-
-.buttonWrap > div:hover {
-  opacity: 1;
-  background-color: #0475f0;
-}
-
-.button5 {
-  margin-right: 0px;
 }
 
 .slick-arrow {

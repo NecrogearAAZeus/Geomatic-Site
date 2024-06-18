@@ -1,0 +1,66 @@
+.mainIntroBox {
+  width: 100%;
+  height: 1120px;
+  background-color: #0e1013;
+  color: #fefefe;
+}
+
+.mainIntroWrap {
+  width: 1320px;
+  margin: 0 auto;
+}
+.mainIntroTitle {
+  font-size: 55px;
+  font-weight: bold;
+}
+
+.mainIntroSubTitle {
+  font-size: 16px;
+  opacity: 0.8;
+  margin-top: 40px;
+  line-height: 160%;
+}
+
+.mainIntroSubTitle > div {
+  margin-top: 4px;
+}
+
+.mainIntroGridImgWrap {
+  text-align: center;
+}
+
+.mainIntroGrid1 {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.introContainer {
+  margin-top: 30px;
+  border-radius: 10px;
+  background-color: #1b1c21;
+  aspect-ratio: 1/ 1;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.flask {
+  width: 150px;
+  height: 150px;
+  margin: 20px 0;
+}
+
+.mainIntroGridBoxTitle {
+  text-align: left;
+  font-size: 25px;
+}
+
+.mainIntroGridBoxText {
+  margin: 20px 0;
+  line-height: 160%;
+  font-size: 16px;
+  opacity: 0.8;
+}

@@ -19,13 +19,13 @@
 }
 
 .mainFontBox > .slider-container {
-  height: 501px;
+  height: 600px;
   width: 100%;
 }
 
 .mainFontBox {
   height: 600px;
-  display: flex;
+  position: relative;
   justify-content: space-between;
   flex-wrap: wrap;
   flex-direction: column;
@@ -101,38 +101,41 @@
   grid-gap: 20px;
   grid-template-columns: 3fr 9fr;
   height: 600px;
-  overflow: hidden;
 }
-.MainImgContainer > div:last-child {
+.MainImgContainer .slick-track {
+  display: flex;
+}
+.MainImgContainer > .slider-container {
   height: 600px;
   width: 910px;
 }
 
 .mainEmptyBox {
   width: 100%;
-  position: relative;
   min-width: 390px;
+  height: 600px;
 }
 .mainImgWrap {
-  overflow: hidden;
   height: calc(100svh - 100px);
   display: flex;
   align-items: center;
 }
-.slider-container {
-  overflow: hidden;
+.imgWrap {
+  height: 600px;
+  width: 910px;
+  display: inline-block;
 }
 .slideText {
-  height: 501px;
+  height: 600px;
 }
 .imgCover {
   width: 910px !important;
   height: 600px;
-  overflow: hidden;
 }
+
 .slick-list,
 .slick-track {
-  height: 600px !important;
+  height: 600px;
 }
 .MainImg {
   height: 600px;
@@ -140,6 +143,9 @@
 }
 
 .buttonWrap {
+  position: absolute;
+  bottom: 0;
+  left: 0;
   display: flex;
   margin-left: 40px;
 }

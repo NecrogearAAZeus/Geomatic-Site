@@ -1,5 +1,6 @@
 import React from "react";
 import Slider from "react-slick";
+import "slick-carousel/slick/slick-theme.css";
 
 import "./static/MainBody.css";
 import MainImgBG1 from "../../assets/img/mainImgBg1.png";
@@ -9,50 +10,62 @@ import MainImgBG4 from "../../assets/img/mainImgBg4.png";
 import MainImgBG5 from "../../assets/img/mainImgBg5.png";
 
 function MainBody() {
-  var PauseOnHoverSettings = {
+  const Test1 = {
     autoplay: true,
     autoplaySpeed: 2000,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
+    vertical: false,
   };
   const MainText = {
     autoplay: true,
     autoplaySpeed: 2000,
     infinite: true,
+    speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
     vertical: true,
     verticalSwiping: true,
   };
 
-  function MainImgBG() {
+  function MainBg1() {
     return (
-      <div className="MainImgContainer">
-        <div className="mainEmptyBox"></div>
-        <div className="slider-container">
-          <Slider {...PauseOnHoverSettings}>
-            <div className="imgCover">
-              <img src={MainImgBG1} alt="mainImgBG" className="MainImg" />
-            </div>
-            <div className="imgCover">
-              <img src={MainImgBG2} alt="mainImgBG" className="MainImg" />
-            </div>
-            <div className="imgCover">
-              <img src={MainImgBG3} alt="mainImgBG" className="MainImg" />
-            </div>
-            <div className="imgCover">
-              <img src={MainImgBG4} alt="mainImgBG" className="MainImg" />
-            </div>
-            <div className="imgCover">
-              <img src={MainImgBG5} alt="mainImgBG" className="MainImg" />
-            </div>
-          </Slider>
-        </div>
+      <div className="imgCover">
+        <img src={MainImgBG1} alt="mainImgBG" className="MainImg" />
       </div>
     );
   }
+  function MainBg2() {
+    return (
+      <div className="imgCover">
+        <img src={MainImgBG2} alt="mainImgBG" className="MainImg" />
+      </div>
+    );
+  }
+  function MainBg3() {
+    return (
+      <div className="imgCover">
+        <img src={MainImgBG3} alt="mainImgBG" className="MainImg" />
+      </div>
+    );
+  }
+  function MainBg4() {
+    return (
+      <div className="imgCover">
+        <img src={MainImgBG4} alt="mainImgBG" className="MainImg" />
+      </div>
+    );
+  }
+  function MainBg5() {
+    return (
+      <div className="imgCover">
+        <img src={MainImgBG5} alt="mainImgBG" className="MainImg" />
+      </div>
+    );
+  }
+
   function MainText1() {
     return (
       <div className="mainText1 slideMove slideText">
@@ -137,7 +150,28 @@ function MainBody() {
         </div>
       </div>
       <div className="mainImgWrap">
-        <MainImgBG />
+        <div className="MainImgContainer">
+          <div className="mainEmptyBox"></div>
+          <div className="slider-container">
+            <Slider {...Test1}>
+              <div className="imgWrap">
+                <MainBg1 />
+              </div>
+              <div className="imgWrap">
+                <MainBg2 />
+              </div>
+              <div className="imgWrap">
+                <MainBg3 />
+              </div>
+              <div className="imgWrap">
+                <MainBg4 />
+              </div>
+              <div className="imgWrap">
+                <MainBg5 />
+              </div>
+            </Slider>
+          </div>
+        </div>
       </div>
     </div>
   );

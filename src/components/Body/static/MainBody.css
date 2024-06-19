@@ -140,8 +140,8 @@
   height: 600px;
 }
 
-.slick-list,
-.slick-track {
+.mainFontBox .slick-list,
+.mainFontBox .slick-track {
   height: 600px;
 }
 .MainImg {

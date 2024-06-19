@@ -1,8 +1,9 @@
 .mainIntroBox {
   width: 100%;
-  height: 1120px;
+  overflow: hidden;
   background-color: #0e1013;
   color: #fefefe;
+  padding-bottom: 70px;
 }
 
 .mainIntroWrap {
@@ -50,7 +51,7 @@
 .flask {
   width: 150px;
   height: 150px;
-  margin: 20px 0;
+  margin-top: 25px;
 }
 
 .mainIntroGridBoxTitle {
@@ -59,8 +60,69 @@
 }
 
 .mainIntroGridBoxText {
-  margin: 20px 0;
+  margin: 25px 0;
   line-height: 160%;
   font-size: 16px;
   opacity: 0.8;
+}
+.partnerContainer {
+  margin-top: 40px;
+}
+
+.partnerTitle > .slider-container,
+.partnersWrap {
+  width: 100%;
+  display: flex;
+  background-color: #fefefe;
+  border-radius: 10px;
+}
+
+.customerContainer > .slider-container {
+  overflow: hidden;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+
+.partnerTitle {
+  margin-bottom: 20px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.partnerBox {
+  width: 100%;
+  height: 100px;
+  padding: 10px 0;
+  text-align: center;
+}
+.partnerBox:last-child {
+  padding: 0px 0;
+  height: 120px;
+}
+.partnerBox > img {
+  height: 100%;
+}
+.customerContainer {
+  margin-top: 40px;
+}
+.customerContainer .slick-slide {
+  width: 100%;
+}
+
+.customerContainer .slick-track {
+  display: flex;
+}
+.customerBox {
+  height: 120px;
+  text-align: center;
+}
+
+.customerBox > div > img {
+  height: 100%;
+}
+
+.customerBox > div {
+  background-color: #fefefe;
+  padding: 10px 0;
+  height: 100px;
 }

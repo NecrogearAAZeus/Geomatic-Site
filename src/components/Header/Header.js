@@ -10,6 +10,7 @@ function Header() {
   const [businessHovered, setBusinessHovered] = useState(false);
   const [productHovered, setProductHovered] = useState(false);
   const [languageHovered, setLanguageHovered] = useState(false);
+
   function ComponyInfoMenu() {
     return (
       <div className="infoWrap">
@@ -59,6 +60,20 @@ function Header() {
           onMouseLeave={() => setComponyInfoHovered(false)}
         >
           회사소개
+          <svg
+            id="componyInfoArrowId"
+            data-name=" componyInfoArrowDataName  q"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 18 9"
+            className={
+              componyInfoHovered
+                ? "componyInfoArrow hovered"
+                : "componyInfoArrow"
+            }
+          >
+            <defs></defs>
+            <path d="M9,9c-.18,0-.35-.06-.49-.19L.2,1.1C-.07.85-.07.44.2.19.47-.06.91-.06,1.18.19l7.82,7.26L16.82.19c.27-.25.71-.25.98,0s.27.66,0,.91l-8.31,7.71c-.14.13-.31.19-.49.19Z" />
+          </svg>
           {componyInfoHovered && <ComponyInfoMenu />}
         </div>
         <div
@@ -67,6 +82,18 @@ function Header() {
           onMouseLeave={() => setBusinessHovered(false)}
         >
           사업분야
+          <svg
+            id="componyInfoArrowId"
+            data-name=" componyInfoArrowDataName  q"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 18 9"
+            className={
+              businessHovered ? "componyInfoArrow hovered" : "componyInfoArrow"
+            }
+          >
+            <defs></defs>
+            <path d="M9,9c-.18,0-.35-.06-.49-.19L.2,1.1C-.07.85-.07.44.2.19.47-.06.91-.06,1.18.19l7.82,7.26L16.82.19c.27-.25.71-.25.98,0s.27.66,0,.91l-8.31,7.71c-.14.13-.31.19-.49.19Z" />
+          </svg>
           {businessHovered && <BusinessMenu />}
         </div>
 
@@ -76,6 +103,18 @@ function Header() {
           onMouseLeave={() => setProductHovered(false)}
         >
           제품솔루션
+          <svg
+            id="componyInfoArrowId"
+            data-name=" componyInfoArrowDataName  q"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 18 9"
+            className={
+              productHovered ? "componyInfoArrow hovered" : "componyInfoArrow"
+            }
+          >
+            <defs></defs>
+            <path d="M9,9c-.18,0-.35-.06-.49-.19L.2,1.1C-.07.85-.07.44.2.19.47-.06.91-.06,1.18.19l7.82,7.26L16.82.19c.27-.25.71-.25.98,0s.27.66,0,.91l-8.31,7.71c-.14.13-.31.19-.49.19Z" />
+          </svg>
           {productHovered && <ProductMenu />}
         </div>
         <div className="inquiry">고객문의</div>

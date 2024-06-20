@@ -1,7 +1,6 @@
 .mainLinkBox {
-  padding-top: 60px;
-  background-color: #28282a;
-  height: 5000px;
+  background-color: #0e1013;
+  padding-bottom: 60px;
 }
 .mainLinkWrap {
   width: 1320px;
@@ -24,6 +23,7 @@
 }
 .mainLinkBoxTitle {
   position: relative;
+  opacity: 0.8;
   z-index: 2;
 }
 .mainLinkBoxCover {
@@ -35,6 +35,8 @@
   width: 100%;
   height: 100%;
   opacity: 0.4;
+  cursor: pointer;
+  transition: all 0.3s;
 }
 .mainLinkBox1 {
   position: relative;
@@ -42,28 +44,62 @@
   grid-row: 1 / 2;
   background-color: #1b1c21;
   overflow: hidden;
+  transition: all 0.3s;
 }
 .mainLinkWorkShop {
   position: absolute;
   width: 100%;
   top: 50%;
-  left: 0;
-  transform: translateY(-50%);
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.3s;
+}
+.mainLinkBox1,
+.hover > .mainLinkBoxTitle {
+  opacity: 1;
+  transition: all 0.3s;
 }
 
+.mainLinkBox1.hover > .mainLinkBoxCover {
+  opacity: 0;
+  transition: all 0.3s;
+}
+.mainLinkBox1.hover > img {
+  width: 105%;
+  transition: all 0.3s;
+}
 .mainLinkBox2 {
   grid-column: 4 / 5;
   grid-row: 1 / 2;
   background-color: #1b1c21;
   position: relative;
   overflow: hidden;
+  transition: all 0.3s;
 }
 
 .mainLinkAI {
+  height: 100%;
   position: absolute;
   top: 50%;
-  left: 0;
-  transform: translateY(-50%);
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.3s;
+}
+
+.mainLinkBox2,
+.hover > .mainLinkBoxTitle {
+  opacity: 1;
+  transition: all 0.3s;
+}
+
+.mainLinkBox2.hover > .mainLinkBoxCover {
+  opacity: 0;
+  transition: all 0.3s;
+}
+
+.mainLinkBox2.hover > img {
+  height: 110%;
+  transition: all 0.3s;
 }
 
 .mainLinkBox3 {
@@ -72,25 +108,64 @@
   background-color: #1b1c21;
   position: relative;
   overflow: hidden;
+  transition: all 0.3s;
 }
 .DigitalTwin {
+  height: 100%;
   position: absolute;
   top: 50%;
-  left: 0;
-  transform: translateY(-50%);
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.3s;
 }
+.mainLinkBox3.hover > img {
+  height: 105%;
+  transition: all 0.3s;
+}
+
+.mainLinkBox3,
+.hover > .mainLinkBoxTitle {
+  opacity: 1;
+  transition: all 0.3s;
+}
+
+.mainLinkBox3.hover > .mainLinkBoxCover {
+  opacity: 0;
+  transition: all 0.3s;
+}
+
 .mainLinkBox4 {
   grid-column: 1 / 2;
   grid-row: 2 / 3;
   background-color: #1b1c21;
   position: relative;
   overflow: hidden;
+  transition: all 0.3s;
 }
+
 .marine {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  transition: all 0.3s;
+  width: 100%;
+}
+
+.mainLinkBox4,
+.hover > .mainLinkBoxTitle {
+  opacity: 1;
+  transition: all 0.3s;
+}
+
+.mainLinkBox4.hover > img {
+  width: 110%;
+  transition: all 0.3s;
+}
+
+.mainLinkBox4.hover > .mainLinkBoxCover {
+  opacity: 0.2;
+  transition: all 0.3s;
 }
 
 .mainLinkBox5 {
@@ -104,19 +179,47 @@
 .mainLinkLogo {
   width: 100%;
 }
+
+.mainLinkBox5 .mainLinkBoxCover {
+  display: none;
+}
+
+.mainLinkBox5.hover > .mainLinkBoxCover {
+  background-color: transparent;
+}
+
 .mainLinkBox6 {
   grid-column: 1 / 2;
   grid-row: 3 / 4;
   background-color: #1b1c21;
   position: relative;
   overflow: hidden;
+  transition: all 0.3s;
 }
 .mainLinkDrone {
   position: absolute;
   top: 50%;
-  left: 0;
-  transform: translateY(-50%);
-  height: 110%;
+  left: 50%;
+  transform: translate(-50%, -38%);
+  height: 140%;
+  transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.mainLinkBox6,
+.hover > .mainLinkBoxTitle {
+  opacity: 1;
+  transition: all 0.3s;
+}
+
+.mainLinkBox6.hover > .mainLinkBoxCover {
+  opacity: 0.2;
+  transition: all 0.3s;
+}
+
+.mainLinkBox6.hover > img {
+  height: 150%;
+  transition: all 0.3s;
 }
 
 .mainLinkBox7 {
@@ -125,14 +228,32 @@
   background-color: #1b1c21;
   position: relative;
   overflow: hidden;
+  transition: all 0.3s;
 }
 
 .mainLinkSurvey {
   position: absolute;
   top: 50%;
-  left: 0;
-  transform: translateY(-32%);
+  left: 50%;
+  transform: translate(-50%, -32%);
   width: 110%;
+  transition: all 0.3s;
+}
+
+.mainLinkBox7.hover > img {
+  width: 115%;
+  transition: all 0.3s;
+}
+
+.mainLinkBox7,
+.hover > .mainLinkBoxTitle {
+  opacity: 1;
+  transition: all 0.3s;
+}
+
+.mainLinkBox7.hover > .mainLinkBoxCover {
+  opacity: 0;
+  transition: all 0.3s;
 }
 
 .mainLinkBox8 {
@@ -141,13 +262,31 @@
   background-color: #1b1c21;
   position: relative;
   overflow: hidden;
+  transition: all 0.3s;
 }
 .mainLinkSafety {
   position: absolute;
   top: 50%;
-  left: 0;
-  transform: translateY(-43%);
+  left: 50%;
+  transform: translate(-50%, -43%);
   width: 100%;
+  transition: all 0.3s;
+}
+
+.mainLinkBox8,
+.hover > .mainLinkBoxTitle {
+  opacity: 1;
+  transition: all 0.3s;
+}
+
+.mainLinkBox8.hover > .mainLinkBoxCover {
+  opacity: 0;
+  transition: all 0.3s;
+}
+
+.mainLinkBox8.hover > img {
+  width: 105%;
+  transition: all 0.3s;
 }
 
 .mainLinkBox9 {
@@ -156,6 +295,7 @@
   background-color: #1b1c21;
   position: relative;
   overflow: hidden;
+  transition: all 0.3s;
 }
 
 .mainLinkFarm {
@@ -164,13 +304,29 @@
   left: 50%;
   transform: translate(-50%, -50%);
   height: 130%;
+  transition: all 0.3s;
+}
+
+.mainLinkBox9,
+.hover > .mainLinkBoxTitle {
+  opacity: 1;
+  transition: all 0.3s;
+}
+
+.mainLinkBox9.hover > .mainLinkBoxCover {
+  opacity: 0;
+  transition: all 0.3s;
+}
+
+.mainLinkBox9.hover > img {
+  height: 135%;
+  transition: all 0.3s;
 }
 
 .mainLinkBentoWrap > div {
   box-sizing: border-box;
   padding: 20px;
   font-size: 16px;
-  opacity: 0.8;
   border-radius: 5px;
-  box-shadow: 0px 0px 10px #0476f013;
+  box-shadow: 0px 0px 5px #0476f013;
 }

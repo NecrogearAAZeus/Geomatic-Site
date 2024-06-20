@@ -46,7 +46,7 @@
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  box-shadow: 0px 0px 10px #0476f013;
+  box-shadow: 0px 0px 5px #0476f013;
 }
 
 .flask {

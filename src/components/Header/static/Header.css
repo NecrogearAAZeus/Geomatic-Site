@@ -165,9 +165,28 @@
   border: 1px solid #0476f04b;
 }
 
+.headerIcons {
+  width: 14px;
+}
+
 .languageWrap:hover {
   color: #0475f0;
 }
 .inquiry:hover {
   color: #0475f0;
+}
+
+.componyInfoArrow {
+  fill: #fefefe;
+  transition: all 0.3s;
+}
+.componyInfoArrow.hovered {
+  transform-origin: 50% 50%;
+  transform: rotate(-90deg);
+  transition: all 0.3s;
+  fill: #0475f0;
+}
+#componyInfoArrowId {
+  width: 14px;
+  margin-left: 5px;
 }

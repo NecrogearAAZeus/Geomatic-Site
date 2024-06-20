@@ -6,6 +6,7 @@ import reportWebVitals from "./reportWebVitals";
 import MainBody from "./components/Body/MainBody.js";
 import MainIntro from "./components/Body/MainIntro.js";
 import MainLink from "./components/Body/MainLink.js";
+import MainProducts from "./components/Body/MainProducts.js";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -14,6 +15,7 @@ root.render(
     <MainBody />
     <MainIntro />
     <MainLink />
+    <MainProducts />
   </React.StrictMode>
 );
 

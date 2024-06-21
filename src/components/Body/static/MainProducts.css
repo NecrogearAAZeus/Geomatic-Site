@@ -49,12 +49,6 @@
   cursor: pointer;
 }
 
-.terraPoint:hover,
-.DJIH20T:hover,
-.softwareMockUP:hover {
-  height: 105%;
-}
-
 .mainGridBoxTextArea {
   padding: 10px 20px 20px 20px;
   border-top: 1px solid #fefefe;

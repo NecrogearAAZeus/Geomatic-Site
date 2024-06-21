@@ -15,10 +15,12 @@ function MainIntro() {
     slidesToShow: 4,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 1500,
-    pauseOnHover: true,
-    centerMode: true,
-    centerPadding: "0px",
+    speed: 3500,
+    autoplaySpeed: 3500,
+    cssEase: "linear",
+    pauseOnHover: false,
+    pauseOnFocus: false,
+    pauseOnDotsHover: false,
   };
   return (
     <div className="mainIntroBox">

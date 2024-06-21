@@ -102,6 +102,14 @@
   background-color: #fefefe;
 }
 
+.mainEmailAffiliation:hover {
+  background-color: #d2d3da;
+}
+
+.mainEmailAffiliation:focus {
+  background-color: #d2d3da;
+}
+
 .mainEmailFunctionBoxName {
   width: calc(50% - 10px);
   padding-left: 10px;
@@ -112,6 +120,10 @@
   width: 100%;
   border-radius: 5px;
   background-color: #fefefe;
+}
+
+.mainEmailName:focus {
+  background-color: #d2d3da;
 }
 
 .mainEmailFunctionBoxPhone {
@@ -126,6 +138,10 @@
   background-color: #fefefe;
 }
 
+.mainEmailPhone:focus {
+  background-color: #d2d3da;
+}
+
 .mainEmailFunctionBoxEmail {
   width: calc(50% - 10px);
   padding-left: 10px;
@@ -138,6 +154,10 @@
   background-color: #fefefe;
 }
 
+.mainEmailEmail:focus {
+  background-color: #d2d3da;
+}
+
 .mainEmailMassage {
   resize: none;
   border-radius: 5px;
@@ -147,6 +167,10 @@
   font-size: 14px;
   font-family: "NotoSansKR";
   line-height: 150%;
+}
+
+.mainEmailMassage:focus {
+  background-color: #d2d3da;
 }
 
 .mainEmailFunctionBoxMessage {
@@ -179,4 +203,8 @@ textarea {
   height: 100%;
   cursor: pointer;
   transition: all 0.3s;
+}
+
+.mainEmailFunctionBoxSend:hover {
+  background-color: #0156b1;
 }

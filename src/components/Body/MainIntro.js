@@ -15,7 +15,7 @@ function MainIntro() {
     slidesToShow: 4,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 1500,
     pauseOnHover: true,
     centerMode: true,
     centerPadding: "0px",

@@ -8,9 +8,17 @@
   justify-content: space-between;
   box-sizing: border-box;
   color: #fefefe;
-  z-index: 100;
+  z-index: 1000;
   position: relative;
   align-items: center;
+  transition: all 0.3s;
+}
+.fixed {
+  background-color: #080809;
+  box-shadow: 0px 0px 10px #0476f05b;
+  position: fixed;
+  z-index: 1000;
+  transition: all 0.3s;
 }
 
 .GeoLogo {

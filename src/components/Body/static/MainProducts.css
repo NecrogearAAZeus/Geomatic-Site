@@ -39,11 +39,20 @@
   justify-content: center;
   align-items: center;
   height: 470px;
+  overflow: hidden;
 }
 
 .mainProductGridImg {
   height: 100%;
   position: relative;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.terraPoint:hover,
+.DJIH20T:hover,
+.softwareMockUP:hover {
+  height: 105%;
 }
 
 .mainGridBoxTextArea {

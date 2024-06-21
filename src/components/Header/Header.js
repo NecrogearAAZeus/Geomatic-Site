@@ -1,15 +1,32 @@
 import "./static/Header.css";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import GeomaticLogo from "../../assets/img/GeomaticLogo.png";
 import KrFlag from "../../assets/img/krFlag.png";
 import EnFlag from "../../assets/img/enFlag.png";
 
-import { useState } from "react";
 function Header() {
   const [componyInfoHovered, setComponyInfoHovered] = useState(false);
   const [businessHovered, setBusinessHovered] = useState(false);
   const [productHovered, setProductHovered] = useState(false);
   const [languageHovered, setLanguageHovered] = useState(false);
+  const [isFixed, setIsFixed] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 800) {
+        // 100px 이상 스크롤 시 고정
+        setIsFixed(true);
+      } else {
+        setIsFixed(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   function ComponyInfoMenu() {
     return (

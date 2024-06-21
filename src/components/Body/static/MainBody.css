@@ -93,11 +93,14 @@
   border: 1px solid #fefefecd;
   border-radius: 5px;
   display: inline-block;
+  transition: all 0.3s;
+  cursor: pointer;
 }
 
 .TitleinfoText:hover {
   color: #0475f0;
   border: 1px solid #0475f0;
+  transition: all 0.3s;
 }
 
 .MainImgContainer {
@@ -170,19 +173,23 @@
   color: #fefefe;
   font-size: 14px;
   opacity: 0.4;
+  transition: all 0.3s;
 }
 
 .slick-dots li button:hover::before {
   color: #0475f0 !important;
   opacity: 1 !important;
+  transition: all 0.3s;
 }
 
 .slick-dots li.slick-active button:before {
   color: #0475f0 !important;
   opacity: 1 !important;
+  transition: all 0.3s;
 }
 
 .slick-dots li button:focus:before {
   opacity: 0.4;
   color: #fefefe;
+  transition: all 0.3s;
 }

@@ -7,6 +7,8 @@ import MainBody from "./components/Body/MainBody.js";
 import MainIntro from "./components/Body/MainIntro.js";
 import MainLink from "./components/Body/MainLink.js";
 import MainProducts from "./components/Body/MainProducts.js";
+import MainEmail from "./components/Body/MainEmail.js";
+import Footer from "./components/Footer/Footer.js";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -16,6 +18,8 @@ root.render(
     <MainIntro />
     <MainLink />
     <MainProducts />
+    <MainEmail />
+    <Footer />
   </React.StrictMode>
 );
 

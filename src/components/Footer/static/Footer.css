@@ -1,0 +1,84 @@
+.footerBox {
+  background-color: #080809;
+  width: 100%;
+  height: 500px;
+  box-shadow: 0px 0px 10px #0476f05b;
+  color: #fefefe;
+}
+
+.footerWrap {
+  width: 1320px;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+  height: 100%;
+  align-items: center;
+}
+
+.footerinfoWrap {
+  height: 300px;
+}
+.footerInfoOpacity {
+  margin: 5px 0px;
+  opacity: 0.8;
+  font-size: 14px;
+}
+
+.footerinfoCopy {
+  margin: 15px 0px !important;
+  line-height: 180%;
+  opacity: 0.4 !important;
+}
+
+.footerinfoFlex {
+  display: flex;
+  font-size: 20px;
+}
+
+.footerinfoFlex > div {
+  margin-right: 30px;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.footerinfoFlex > div:hover {
+  color: #0476f0;
+  transition: all 0.3s;
+}
+
+.footerNavWrap {
+  display: flex;
+  justify-content: flex-end;
+  height: 300px;
+}
+
+.footerNavWrap > div {
+  margin-right: 56px;
+}
+
+.footerMenuTitle {
+  font-size: 16px;
+}
+
+.footerMenu {
+  opacity: 0.8;
+  transition: all 0.3s;
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.footerMenu:hover {
+  opacity: 1;
+  color: #0476f0;
+  transition: all 0.3s;
+}
+
+.footerInquiry {
+  transition: all 0.3s;
+}
+
+.footerInquiry:hover {
+  color: #0476f0;
+  transition: all 0.3s;
+}

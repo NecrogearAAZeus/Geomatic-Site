@@ -152,17 +152,12 @@
   object-fit: cover;
 }
 
-.slick-arrow {
-  display: none !important;
-}
-
 .slick-dots {
   position: absolute;
   left: 0;
   bottom: 0;
   margin-left: 40px;
   text-align: left;
-  transform: translatey(5px);
 }
 
 .slick-dots li {
@@ -171,7 +166,7 @@
 
 .slick-dots li button::before {
   color: #fefefe;
-  font-size: 14px;
+  font-size: 18px;
   opacity: 0.4;
   transition: all 0.3s;
 }

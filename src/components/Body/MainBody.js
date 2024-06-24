@@ -1,7 +1,6 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect, useRef, memo } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick-theme.css";
-
 import "./static/MainBody.css";
 import MainImgBG1 from "../../assets/img/mainImgBg1.png";
 import MainImgBG2 from "../../assets/img/mainImgBg2.png";
@@ -19,6 +18,11 @@ function MainBody() {
     setNav1(sliderRef1);
     setNav2(sliderRef2);
   }, []);
+
+  const handleAfterChange = (currentSlide) => {
+    console.log("Current Slide Index:", currentSlide);
+  };
+
   function MainBg1() {
     return (
       <div className="imgCover">
@@ -113,7 +117,7 @@ function MainBody() {
           <div className="slider-container">
             <Slider
               autoplay={true}
-              autoplaySpeed={4000}
+              autoplaySpeed={5000}
               infinite={true}
               speed={500}
               slidesToShow={1}
@@ -122,8 +126,8 @@ function MainBody() {
               verticalSwiping={true}
               asNavFor={nav2}
               ref={(slider) => (sliderRef1 = slider)}
-              pauseOnHover={true}
               dots={true}
+              afterChange={handleAfterChange}
             >
               <div className="textCover">
                 <MainText1 />
@@ -151,15 +155,14 @@ function MainBody() {
             <Slider
               asNavFor={nav1}
               ref={(slider) => (sliderRef2 = slider)}
-              swipeToSlide={true}
-              focusOnSelect={true}
               autoplay={true}
-              autoplaySpeed={4000}
-              infinite={true}
+              autoplaySpeed={5000}
               speed={500}
+              infinite={true}
               slidesToShow={1}
               slidesToScroll={1}
-              pauseOnHover={true}
+              afterChange={handleAfterChange}
+              arrows={false}
             >
               <div className="imgWrap">
                 <MainBg1 />
@@ -184,4 +187,4 @@ function MainBody() {
   );
 }
 
-export default MainBody;
+export default memo(MainBody);

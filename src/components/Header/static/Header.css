@@ -1,3 +1,12 @@
+.linkStyle {
+  text-decoration: none;
+  color: #fefefe;
+  transition: all 0.3s;
+}
+.linkStyle :hover {
+  color: #0475f0;
+  transition: all 0.3s;
+}
 .headerTest {
   width: 100%;
   height: 80px;
@@ -27,7 +36,7 @@
 }
 .fixed {
   background-color: #080809;
-  box-shadow: 0px 0px 10px #0476f05b;
+  box-shadow: 0px 0px 10px #0476f031;
   position: fixed;
   z-index: 1000;
 }
@@ -69,10 +78,12 @@
   height: 35px;
   display: flex;
   align-items: center;
+  transition: all 0.3s;
 }
 
 .componyInfo:hover {
   color: #0475f0;
+  transition: all 0.3s;
 }
 
 .infoWrap {
@@ -88,10 +99,12 @@
   line-height: 200%;
   color: #fefefe;
   border: 1px solid #0476f04b;
+  transition: all 0.3s;
 }
 
 .infoWrap > div:hover {
   color: #0475f0;
+  transition: all 0.3s;
 }
 
 .businessInfo {
@@ -99,10 +112,12 @@
   height: 35px;
   display: flex;
   align-items: center;
+  transition: all 0.3s;
 }
 
 .businessInfo:hover {
   color: #0475f0;
+  transition: all 0.3s;
 }
 
 .BusinessWrap {
@@ -118,10 +133,12 @@
   line-height: 200%;
   color: #fefefe;
   border: 1px solid #0476f04b;
+  transition: all 0.3s;
 }
 
 .BusinessWrap > div:hover {
   color: #0475f0;
+  transition: all 0.3s;
 }
 
 .productInfo {
@@ -129,10 +146,12 @@
   height: 35px;
   display: flex;
   align-items: center;
+  transition: all 0.3s;
 }
 
 .productInfo:hover {
   color: #0475f0;
+  transition: all 0.3s;
 }
 
 .productWrap {
@@ -148,13 +167,20 @@
   line-height: 200%;
   color: #fefefe;
   border: 1px solid #0476f04b;
+  transition: all 0.3s;
 }
 
 .productWrap > div:hover {
   color: #0475f0;
+  transition: all 0.3s;
+}
+.inquiry {
+  color: #fefefe;
+  transition: all 0.3s;
 }
 .inquiry:hover {
   color: #0475f0;
+  transition: all 0.3s;
 }
 
 .language {
@@ -163,10 +189,12 @@
   display: flex;
   align-items: center;
   outline: none;
+  transition: all 0.3s;
 }
 
 .language:hover {
   color: #0475f0;
+  transition: all 0.3s;
 }
 
 .languageWrap {
@@ -182,6 +210,7 @@
   line-height: 200%;
   color: #fefefe;
   border: 1px solid #0476f04b;
+  transition: all 0.3s;
 }
 
 .headerIcons {
@@ -190,9 +219,7 @@
 
 .languageWrap:hover {
   color: #0475f0;
-}
-.inquiry:hover {
-  color: #0475f0;
+  transition: all 0.3s;
 }
 
 .componyInfoArrow {

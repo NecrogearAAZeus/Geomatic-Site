@@ -1,0 +1,77 @@
+.MainCeoGreetingsWrap {
+  height: calc(100svh - 140px);
+  background-color: #0e1013;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 60px;
+}
+
+.MainCeoGreetingTitle {
+  width: 1320px;
+  margin: 0 auto;
+  font-weight: bold;
+  font-size: 55px;
+  color: #fefefe;
+  margin-bottom: 35px;
+}
+
+.MainCeoGreetingsGrid {
+  display: grid;
+  grid-template-columns: 5fr 7fr;
+  grid-gap: 20px;
+  width: 1320px;
+  margin: 0 auto;
+  height: 600px;
+}
+
+.MainCeoGreetingImg {
+  width: 100%;
+  height: 100%;
+  background-color: #25262b;
+  border-radius: 10px;
+}
+
+.MainCeoGreetingTextArea {
+  padding: 0px 40px;
+}
+
+.MainCeoGreetingTextArea {
+  color: #fefefe;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.MainCeoGreetingSubTitle {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: -30px;
+  line-height: 150%;
+}
+
+.MainCeoGreetingText {
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.MainCeoGreatingMargin {
+  margin: 15px 0px;
+  line-height: 170%;
+  opacity: 0.8;
+}
+
+.MainCeoGreetingText7 {
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+.MainCeoGreetingCeo {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.MainCeoGreetingName {
+  display: inline-block;
+}

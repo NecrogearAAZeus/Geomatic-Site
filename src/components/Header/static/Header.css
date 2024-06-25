@@ -2,10 +2,12 @@
   text-decoration: none;
   color: #fefefe;
   transition: all 0.3s;
+  font-family: "NotoSansKR";
 }
 .linkStyle :hover {
   color: #0475f0;
   transition: all 0.3s;
+  font-family: "NotoSansKR";
 }
 .headerTest {
   width: 100%;
@@ -33,6 +35,7 @@
   z-index: 1000;
   position: relative;
   align-items: center;
+  font-family: "NotoSansKR";
 }
 .fixed {
   background-color: #080809;
@@ -177,6 +180,7 @@
 .inquiry {
   color: #fefefe;
   transition: all 0.3s;
+  margin: 0px 20px;
 }
 .inquiry:hover {
   color: #0475f0;

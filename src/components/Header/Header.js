@@ -1,6 +1,6 @@
 import "./static/Header.css";
 import React, { useEffect, useState } from "react";
-import { BrowserRouter as Router, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import GeomaticLogo from "../../assets/img/GeomaticLogo.png";
 import KrFlag from "../../assets/img/krFlag.png";
 import EnFlag from "../../assets/img/enFlag.png";

@@ -1,11 +1,5 @@
 import React, { useEffect } from "react";
-import {
-  BrowserRouter,
-  Route,
-  Routes,
-  BrowserRouter,
-  useLocation,
-} from "react-router-dom";
+import { BrowserRouter, Route, Routes, useLocation } from "react-router-dom";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import Header from "./components/Header/Header.js";

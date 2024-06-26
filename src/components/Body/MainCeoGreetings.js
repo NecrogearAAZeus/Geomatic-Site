@@ -1,4 +1,5 @@
 import "./static/MainCeogGeetings.css";
+import CEO from "../../assets/img/CEO.png";
 
 function MainCeoGreetings() {
   return (
@@ -6,7 +7,9 @@ function MainCeoGreetings() {
       <div>
         <div className="MainCeoGreetingTitle">CEO 인사말</div>
         <div className="MainCeoGreetingsGrid">
-          <div className="MainCeoGreetingImg"></div>
+          <div className="MainCeoGreetingImg">
+            <img src={CEO} alt="CEO" className="MainCeoGrettingCeo"></img>
+          </div>
           <div className="MainCeoGreetingTextArea">
             <div className="MainCeoGreetingSubTitle">
               고객 여러분, 안녕하십니까? <br />

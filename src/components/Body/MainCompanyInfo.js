@@ -9,15 +9,16 @@ import bentley from "../../assets/img/Bentley_Logo.png";
 import virtualSurveyer from "../../assets/img/VirtualSurveyer.png";
 import agisoft from "../../assets/img/Agisoft_Logo.png";
 import mainInfoBg1 from "../../assets/img/infoBgImg.jpg";
+import HistoryLine from "../../assets/img/historyLine.png";
 
 function MainCompanyInfo() {
   return (
     <div className="MainCompanyInfoWrap">
       <img src={mainInfoBg1} alt="introBg" className="MainCompanyInfoBG" />
+      <div className="MainCompanyInfoTextTitle">회사개요</div>
       <div className="MainCompanyInfoBox">
         <div className="MainCompanyInfoTextWrap">
           <div className="MainCompanyInfoTextBox">
-            <div className="MainCompanyInfoTextTitle">회사개요</div>
             <div className="MainCompanyInfoSubTitle">
               기술을 넘어 혁신을 선도하는 공간정보(가제)
             </div>
@@ -337,40 +338,294 @@ function MainCompanyInfo() {
           </div>
         </div>
         <div className="MainCompanyInfoBodyWrap4">
+          <div className="MainCompanyInfoBodyTitle3">연혁</div>
           <div className="MainCompanyInfoGridBox">
-            <div></div>
-            <div className="mainCompanyInfoHistroy1">
-              <div className="mainCompanyInfoHistory1Start">
-                <div className="mainCompanyInfoHistory1StartTitle">
-                  <div className="mainCompanyInfoHistory1StartTitleMain">
-                    2000 ~ 2009
+            <div>
+              <div className="mainCompanyInfoHistoryStartTitleMain InfoHistoryTitleMargin3">
+                <span>2020</span>
+                <span> ~ 현재</span>
+              </div>
+
+              <div className="mainCompanyInfoHistoryStartTitleMain InfoHistoryTitleMargin2">
+                <span>2010</span>
+                <span> ~ 2019</span>
+              </div>
+              <div className="mainCompanyInfoHistoryStartTitleMain InfoHistoryTitleMargin1">
+                <span>2000</span>
+                <span> ~ 2009</span>
+              </div>
+            </div>
+            <div>
+              <img
+                src={HistoryLine}
+                alt="HistoryLine"
+                className="HistoryLine"
+              />
+            </div>
+            <div className="mainCompanyInfoHistroy">
+              <div>
+                <div className="mainCompanyInfoHistoryCurrent">
+                  <div className="mainCompanyInfoHistoryStartTitle">
+                    <div className="mainCompanyInfoHistoryStartTitleSub">
+                      Digital twin · AI Smart · Farm
+                    </div>
                   </div>
-                  <div className="mainCompanyInfoHistory1StartTitleSub">
-                    힘찬 출발
+                  <div className="mainCompanyInfoHistoryStartText">
+                    <div className="mainCompanyInfoHistoryStartText1 HistoryParagraph">
+                      <span className="mainCompanyInfoHistoryStartText1Title HistoryTitle">
+                        2022.11
+                      </span>
+                      <span className="mainCompanyInfoHistoryStartText1Text historyText">
+                        국립식량과학원 기술이전 협약 체결
+                      </span>
+                    </div>
+                    <div className="mainCompanyInfoHistoryStartText2 HistoryParagraph">
+                      <span className="mainCompanyInfoHistoryStartText1Title HistoryTitle">
+                        2022.08
+                      </span>
+                      <span className="mainCompanyInfoHistory1StartText1Text historyText">
+                        농촌진흥청 MOU 체결
+                      </span>
+                    </div>
+                    <div className="mainCompanyInfoHistoryStartText1 HistoryParagraph">
+                      <span className="mainCompanyInfoHistoryStartText1Title HistoryTitle">
+                        2022.08
+                      </span>
+                      <span className="mainCompanyInfoHistoryStartText1Text historyText">
+                        'Autel' Korea Official Dealer
+                      </span>
+                    </div>
+                    <div className="mainCompanyInfoHistoryStartText2 HistoryParagraph">
+                      <span className="mainCompanyInfoHistoryStartText1Title HistoryTitle">
+                        2022.01
+                      </span>
+                      <span className="mainCompanyInfoHistory1StartText1Text historyText">
+                        아시아를 빛낸 드론 부문 선정
+                      </span>
+                    </div>
+                    <div className="mainCompanyInfoHistoryStartText1 HistoryParagraph">
+                      <span className="mainCompanyInfoHistoryStartText1Title HistoryTitle">
+                        2021.08
+                      </span>
+                      <span className="mainCompanyInfoHistoryStartText1Text historyText">
+                        초경량 비행장치 무인 멀티콥터 교육사업
+                      </span>
+                    </div>
+                    <div className="mainCompanyInfoHistoryStartText2 HistoryParagraph">
+                      <span className="mainCompanyInfoHistoryStartText1Title HistoryTitle">
+                        2021.07
+                      </span>
+                      <span className="mainCompanyInfoHistory1StartText1Text historyText">
+                        Bentley Systems 파트너사
+                      </span>
+                    </div>
+                    <div className="mainCompanyInfoHistoryStartText1 HistoryParagraph">
+                      <span className="mainCompanyInfoHistoryStartText1Title HistoryTitle">
+                        2021.06
+                      </span>
+                      <span className="mainCompanyInfoHistoryStartText1Text historyText">
+                        영상처리업 등록
+                      </span>
+                    </div>
+                    <div className="mainCompanyInfoHistoryStartText2 HistoryParagraph">
+                      <span className="mainCompanyInfoHistoryStartText1Title HistoryTitle">
+                        2020.09
+                      </span>
+                      <span className="mainCompanyInfoHistory1StartText1Text historyText">
+                        지하시설물 측량업 등록
+                      </span>
+                    </div>
+                    <div className="mainCompanyInfoHistoryStartText1 HistoryParagraph">
+                      <span className="mainCompanyInfoHistoryStartText1Title HistoryTitle">
+                        2020.09
+                      </span>
+                      <span className="mainCompanyInfoHistoryStartText1Text historyText">
+                        수치지도 제작업 등록
+                      </span>
+                    </div>
                   </div>
                 </div>
-                <div className="mainCompanyInfoHistory1StartText">
-                  <div className="mainCompanyInfoHistory1StartText1 HistoryParagraph">
-                    <span className="mainCompanyInfoHistory1StartText1Title HistoryTitle">
-                      2006.06
-                    </span>
-                    <span className="mainCompanyInfoHistory1StartText1Text historyText">
-                      (주)공간정보 축기 법인 설립
-                    </span>
+                <div className="mainCompanyInfoHistoryGrow">
+                  <div className="mainCompanyInfoHistoryStartTitle">
+                    <div className="mainCompanyInfoHistoryStartTitleSub">
+                      (주)공간정보 성장
+                    </div>
                   </div>
-                  <div className="mainCompanyInfoHistory1StartText2 HistoryParagraph">
-                    <span className="mainCompanyInfoHistory1StartText1Title HistoryTitle">
-                      2000.12
-                    </span>
-                    <span className="mainCompanyInfoHistory1StartText1Text historyText">
-                      공간정보 측기 창립
-                    </span>
+                  <div className="mainCompanyInfoHistoryStartText">
+                    <div className="mainCompanyInfoHistoryStartText1 HistoryParagraph">
+                      <span className="mainCompanyInfoHistoryStartText1Title HistoryTitle">
+                        2019.04
+                      </span>
+                      <span className="mainCompanyInfoHistoryStartText1Text historyText">
+                        건설 기술용역업 등록
+                      </span>
+                    </div>
+                    <div className="mainCompanyInfoHistoryStartText2 HistoryParagraph">
+                      <span className="mainCompanyInfoHistoryStartText1Title HistoryTitle">
+                        2019.03
+                      </span>
+                      <span className="mainCompanyInfoHistory1StartText1Text historyText">
+                        TERRA 드론 KC 인증
+                      </span>
+                    </div>
+                    <div className="mainCompanyInfoHistoryStartText1 HistoryParagraph">
+                      <span className="mainCompanyInfoHistoryStartText1Title HistoryTitle">
+                        2019.01
+                      </span>
+                      <span className="mainCompanyInfoHistoryStartText1Text historyText">
+                        TERRA 드론 우즈베키스탄 수출{" "}
+                      </span>
+                    </div>
+                    <div className="mainCompanyInfoHistoryStartText2 HistoryParagraph">
+                      <span className="mainCompanyInfoHistoryStartText1Title HistoryTitle">
+                        2019.01
+                      </span>
+                      <span className="mainCompanyInfoHistory1StartText1Text historyText">
+                        FC 자체 개발 'TERRA Drone' 개발 및 출시
+                      </span>
+                    </div>
+                    <div className="mainCompanyInfoHistoryStartText1 HistoryParagraph">
+                      <span className="mainCompanyInfoHistoryStartText1Title HistoryTitle">
+                        2017.03
+                      </span>
+                      <span className="mainCompanyInfoHistoryStartText1Text historyText">
+                        해역이용영향 평가 대행자
+                      </span>
+                    </div>
+                    <div className="mainCompanyInfoHistoryStartText2 HistoryParagraph">
+                      <span className="mainCompanyInfoHistoryStartText1Title HistoryTitle">
+                        2015.12
+                      </span>
+                      <span className="mainCompanyInfoHistory1StartText1Text historyText">
+                        해외 건설업 등록
+                      </span>
+                    </div>
+                    <div className="mainCompanyInfoHistoryStartText1 HistoryParagraph">
+                      <span className="mainCompanyInfoHistoryStartText1Title HistoryTitle">
+                        2015.09
+                      </span>
+                      <span className="mainCompanyInfoHistoryStartText1Text historyText">
+                        대표령상 표창
+                      </span>
+                    </div>
+                    <div className="mainCompanyInfoHistoryStartText2 HistoryParagraph">
+                      <span className="mainCompanyInfoHistoryStartText1Title HistoryTitle">
+                        2015.04
+                      </span>
+                      <span className="mainCompanyInfoHistory1StartText1Text historyText">
+                        senseFlyTeach Traning Course 수료
+                      </span>
+                    </div>
+                    <div className="mainCompanyInfoHistoryStartText1 HistoryParagraph">
+                      <span className="mainCompanyInfoHistoryStartText1Title HistoryTitle">
+                        2014.07
+                      </span>
+                      <span className="mainCompanyInfoHistoryStartText1Text historyText">
+                        초경량 비행 장치 사용 사업 등록
+                      </span>
+                    </div>
+                    <div className="mainCompanyInfoHistoryStartText2 HistoryParagraph">
+                      <span className="mainCompanyInfoHistoryStartText1Title HistoryTitle">
+                        2014.03
+                      </span>
+                      <span className="mainCompanyInfoHistory1StartText1Text historyText">
+                        'Agisoft'Korea Officail Dealer
+                      </span>
+                    </div>
+                    <div className="mainCompanyInfoHistoryStartText1 HistoryParagraph">
+                      <span className="mainCompanyInfoHistoryStartText1Title HistoryTitle">
+                        2013.12
+                      </span>
+                      <span className="mainCompanyInfoHistoryStartText1Text historyText">
+                        'senseFly' Korea Official Dealer
+                      </span>
+                    </div>
+                    <div className="mainCompanyInfoHistoryStartText2 HistoryParagraph">
+                      <span className="mainCompanyInfoHistoryStartText1Title HistoryTitle">
+                        2013.12
+                      </span>
+                      <span className="mainCompanyInfoHistory1StartText1Text historyText">
+                        공공측량업 등록
+                      </span>
+                    </div>
+                    <div className="mainCompanyInfoHistoryStartText2 HistoryParagraph">
+                      <span className="mainCompanyInfoHistoryStartText1Title HistoryTitle">
+                        2013.04
+                      </span>
+                      <span className="mainCompanyInfoHistory1StartText1Text historyText">
+                        엔지니어링(해양 분야) 사업자 등록
+                      </span>
+                    </div>
+                    <div className="mainCompanyInfoHistoryStartText2 HistoryParagraph">
+                      <span className="mainCompanyInfoHistoryStartText1Title HistoryTitle">
+                        2013.02
+                      </span>
+                      <span className="mainCompanyInfoHistory1StartText1Text historyText">
+                        'VirtualSurveyor' Korea Officail Dealer
+                      </span>
+                    </div>
+                    <div className="mainCompanyInfoHistoryStartText2 HistoryParagraph">
+                      <span className="mainCompanyInfoHistoryStartText1Title HistoryTitle">
+                        2011.12
+                      </span>
+                      <span className="mainCompanyInfoHistory1StartText1Text historyText">
+                        무인비행시스템 제조공장 등록
+                      </span>
+                    </div>
+                    <div className="mainCompanyInfoHistoryStartText2 HistoryParagraph">
+                      <span className="mainCompanyInfoHistoryStartText1Title HistoryTitle">
+                        2011.08
+                      </span>
+                      <span className="mainCompanyInfoHistory1StartText1Text historyText">
+                        기업부설연구소 설립
+                      </span>
+                    </div>
+                    <div className="mainCompanyInfoHistoryStartText2 HistoryParagraph">
+                      <span className="mainCompanyInfoHistoryStartText1Title HistoryTitle">
+                        2010.07
+                      </span>
+                      <span className="mainCompanyInfoHistory1StartText1Text historyText">
+                        (주)공간정보로 법인명 변경
+                      </span>
+                    </div>
+                    <div className="mainCompanyInfoHistoryStartText2 HistoryParagraph">
+                      <span className="mainCompanyInfoHistoryStartText1Title HistoryTitle">
+                        2010.03
+                      </span>
+                      <span className="mainCompanyInfoHistory1StartText1Text historyText">
+                        기술혁신형중소기업 A등급 인증 획득
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div className="mainCompanyInfoHistoryStart">
+                  <div className="mainCompanyInfoHistoryStartTitle">
+                    <div className="mainCompanyInfoHistoryStartTitleSub">
+                      힘찬 출발
+                    </div>
+                  </div>
+                  <div className="mainCompanyInfoHistoryStartText">
+                    <div className="mainCompanyInfoHistoryStartText1 HistoryParagraph">
+                      <span className="mainCompanyInfoHistoryStartText1Title HistoryTitle">
+                        2006.06
+                      </span>
+                      <span className="mainCompanyInfoHistoryStartText1Text historyText">
+                        (주)공간정보 축기 법인 설립
+                      </span>
+                    </div>
+                    <div className="mainCompanyInfoHistoryStartText2 HistoryParagraph">
+                      <span className="mainCompanyInfoHistoryStartText1Title HistoryTitle">
+                        2000.12
+                      </span>
+                      <span className="mainCompanyInfoHistory1StartText1Text historyText">
+                        공간정보 측기 창립
+                      </span>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="mainCompanyInfoHistroy2"></div>
-            <div></div>
+            <div className="mainCompanyInfoHistoryImgWrap"></div>
           </div>
         </div>
       </div>

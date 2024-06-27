@@ -4,8 +4,8 @@ import CEO from "../../assets/img/CEO.png";
 function MainCeoGreetings() {
   return (
     <div className="MainCeoGreetingsWrap">
+      <div className="MainCeoGreetingTitle">CEO 인사말</div>
       <div>
-        <div className="MainCeoGreetingTitle">CEO 인사말</div>
         <div className="MainCeoGreetingsGrid">
           <div className="MainCeoGreetingImg">
             <img src={CEO} alt="CEO" className="MainCeoGrettingCeo"></img>

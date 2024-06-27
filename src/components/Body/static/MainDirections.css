@@ -1,0 +1,75 @@
+.mainDirectionWrap {
+  padding-top: 100px;
+  background-color: #0e1013;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 60px;
+  color: #fefefe;
+}
+
+.headOfficeTitleWrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.headOfficeButtonWrap {
+  display: flex;
+  margin-top: 3px;
+}
+
+.headOfficeButton1 {
+  background-color: #0475f0;
+  height: 35px;
+  width: 150px;
+  text-align: center;
+  line-height: 35px;
+  box-sizing: border-box;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.headOfficeButton2 {
+  background-color: #0e1013;
+  height: 35px;
+  width: 150px;
+  text-align: center;
+  line-height: 35px;
+  border: 1px solid #0476f085;
+  box-sizing: border-box;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.mainDirectionTitle {
+  width: 1320px;
+  margin: 0 auto;
+  font-weight: bold;
+  font-size: 55px;
+  color: #fefefe;
+  margin-bottom: 60px;
+}
+
+.mainDirectionBox {
+  width: 1320px;
+  margin: 0 auto;
+}
+
+.headOfficeTitle {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.headOfficeMapBox {
+  display: flex;
+}
+
+.headOfficeBox2 {
+  width: 430px;
+  height: 500px;
+  background-color: #25262b;
+  margin-left: 20px;
+  border-radius: 10px;
+}

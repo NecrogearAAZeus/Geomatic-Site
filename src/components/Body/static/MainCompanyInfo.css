@@ -1,8 +1,12 @@
 .MainCompanyInfoWrap {
-  width: 100%;
+  padding-top: 100px;
   background-color: #0e1013;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 40px;
   color: #fefefe;
-  position: relative;
 }
 
 .MainCompanyInfoBox {
@@ -12,7 +16,7 @@
 
 .MainCompanyInfoTextWrap {
   width: 100%;
-  height: calc(100svh - 200px);
+  height: calc(100svh - 580px);
   display: flex;
   align-items: center;
   margin-bottom: 60px;
@@ -28,11 +32,14 @@
 }
 
 .MainCompanyInfoTextTitle {
-  position: relative;
-  z-index: 5;
-  font-size: 55px;
+  width: 1320px;
+  margin: 0 auto;
   font-weight: bold;
-  margin-bottom: 30px;
+  font-size: 55px;
+  color: #fefefe;
+  margin-bottom: 40px;
+  position: relative;
+  z-index: 1;
 }
 
 .MainCompanyInfoSubTitle {
@@ -138,7 +145,7 @@
   border-radius: 10px;
   display: flex;
   align-items: center;
-  padding: 20px 20px;
+  padding: 30px;
   box-sizing: border-box;
 }
 
@@ -157,7 +164,7 @@
 }
 
 .MainCompanyInfoGridText {
-  height: 60px;
+  height: 20px;
 }
 
 .MainCompanyInfoPartner {
@@ -179,6 +186,10 @@
   align-items: center;
 }
 
+.MainCompanyInfoCustomer > .MainCompanyInfoLogoWrap {
+  margin: 10px 0px;
+}
+
 .MainCompanyInfoBodyTitle2 {
   font-size: 25px;
   font-weight: bold;
@@ -187,6 +198,12 @@
 
 .MainCompanyInfoCustomer > div > img {
   height: 100px;
+}
+
+.MainCompanyInfoBodyWrap4 {
+  margin-top: 60px;
+  padding-bottom: 120px;
+  position: relative;
 }
 
 .MainCompanyInfoCustomer {
@@ -200,34 +217,51 @@
 
 .MainCompanyInfoGridBox {
   display: grid;
-  grid-template-columns: 2fr 4fr 4fr 2fr;
-  height: 1000px;
+  grid-template-columns: 2fr 1fr 4fr 5fr;
+  overflow: hidden;
 }
 
-.mainCompanyInfoHistroy1 {
+.MainCompanyInfoGridBox > div {
+  overflow: hidden;
+}
+
+.HistoryLine {
+  height: 1183px;
+}
+
+.mainCompanyInfoHistroy {
   display: flex;
-  justify-content: right;
+  justify-content: left;
+  margin-left: 60px;
 }
 
-.mainCompanyInfoHistory1Start {
-  padding: 20px 50px;
+.mainCompanyInfoHistoryStart {
+  height: 200px;
 }
 
-.mainCompanyInfoHistory1StartTitleMain {
+.mainCompanyInfoHistoryStartTitleMain {
   font-size: 55px;
   font-weight: bold;
   color: #0475f0;
-  margin-bottom: 5px;
+
+  line-height: 55px;
+}
+.mainCompanyInfoHistoryStartTitleMain > span:first-child {
+  margin-bottom: 20px;
 }
 
-.mainCompanyInfoHistory1StartTitleSub {
+.mainCompanyInfoHistoryStartTitleMain > span {
+  display: block;
+}
+
+.mainCompanyInfoHistoryStartTitleSub {
   font-size: 25px;
   font-weight: bold;
-  margin-bottom: 8px;
+  margin-bottom: 15px;
 }
 
 .HistoryParagraph {
-  line-height: 170%;
+  line-height: 180%;
 }
 
 .historyText {
@@ -236,4 +270,50 @@
 
 .HistoryTitle {
   margin-right: 10px;
+}
+
+.MainCompanyInfoBodyTitle3 {
+  font-size: 55px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.InfoHistoryTitleMargin1 {
+  height: 200px;
+}
+
+.InfoHistoryTitleMargin2 {
+  height: 633px;
+}
+
+.mainCompanyInfoHistoryGrow {
+  height: 633px;
+}
+
+.mainCompanyInfoHistoryCurrent {
+  height: 350px;
+}
+
+.InfoHistoryTitleMargin3 {
+  height: 350px;
+}
+
+.InfoLogoIconOnly {
+  opacity: 0.05;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+.mainCompanyInfoHistoryImgWrap {
+  overflow: hidden;
+  border-radius: 10px;
+  opacity: 0.4;
+}
+
+.Preview {
+  height: 100%;
+  object-fit: cover;
 }

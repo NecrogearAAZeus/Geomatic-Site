@@ -5,13 +5,8 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  padding-bottom: 60px;
+  padding-bottom: 120px;
   color: #fefefe;
-}
-
-.headOfficeTitleWrap {
-  display: flex;
-  justify-content: space-between;
 }
 
 .headOfficeButtonWrap {
@@ -28,6 +23,7 @@
   box-sizing: border-box;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5);
 }
 
 .headOfficeButton2 {
@@ -35,7 +31,7 @@
   height: 35px;
   width: 150px;
   text-align: center;
-  line-height: 35px;
+  line-height: 33px;
   border: 1px solid #0476f085;
   box-sizing: border-box;
   border-top-right-radius: 5px;
@@ -51,6 +47,20 @@
   margin-bottom: 60px;
 }
 
+.mainDirectionSubTitleWrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mainDirectionSubTitle {
+  display: flex;
+}
+
+.mainDirectionIcon {
+  margin-right: 5px;
+}
+
 .mainDirectionBox {
   width: 1320px;
   margin: 0 auto;
@@ -59,7 +69,6 @@
 .headOfficeTitle {
   font-size: 25px;
   font-weight: bold;
-  margin-bottom: 30px;
 }
 
 .headOfficeMapBox {
@@ -72,4 +81,66 @@
   background-color: #25262b;
   margin-left: 20px;
   border-radius: 10px;
+  padding: 30px 20px;
+  box-sizing: border-box;
+}
+
+.mainDirectionIcon {
+  height: 22px;
+  padding: 1px 0px;
+  object-fit: cover;
+}
+
+.mainDirectionSubTitleWrap {
+  margin-bottom: 20px;
+}
+
+.headOfficeBox2Flex {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: space-around;
+  height: 100%;
+}
+
+.headOfficeBoxTextGrid {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+
+.carIcon {
+  width: 40px;
+}
+
+.busIcon {
+  width: 38px;
+}
+
+.headOfficeBox2Img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 90px;
+}
+
+.headOfficeBox2Textwrap {
+  margin-left: 20px;
+}
+
+.HeadOfficeBox2Title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.headOfficeBox2Textwrap {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.HeadOfficeBox2Text {
+  opacity: 0.8;
+  line-height: 150%;
 }

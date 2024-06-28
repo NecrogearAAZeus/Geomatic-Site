@@ -10,7 +10,7 @@ function Footer() {
           <div className="footerInfoOpacity"> 대표팩스 : 0505 - 210 - 9396</div>
           <div className="footerInfoOpacity">email : geomatic02@naver.com</div>
           <div className="footerInfoOpacity">
-            기술연구소 / 공장 : 광주광역시 북구 첨단벤처소로 15번 3길
+            기술연구소 / 공장 : 광주광역시 북구 첨단벤처소로 15번길 3
           </div>
           <div className="footerInfoOpacity">
             본사 : 전남 나주시 정보화길 26케이원지식산업센터 405호

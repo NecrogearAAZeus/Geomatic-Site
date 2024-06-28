@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_레이어_1" data-name="레이어 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 39 37">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-linejoin: round;
+      }
+
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #fefefe;
+      }
+
+      .cls-2 {
+        stroke-linecap: square;
+        stroke-linejoin: bevel;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M30.5,33.11v1.76c0,.9.75,1.63,1.67,1.63h1.67c.92,0,1.67-.73,1.67-1.63v-3.37"/>
+  <path class="cls-1" d="M3.5,31.5v3.37c0,.9.75,1.63,1.67,1.63h1.67c.92,0,1.67-.73,1.67-1.63v-1.76"/>
+  <circle class="cls-1" cx="8" cy="28" r="2"/>
+  <circle class="cls-1" cx="31" cy="28" r="2"/>
+  <path class="cls-1" d="M9.5.5h20c3.31,0,6,2.69,6,6v25c0,1.1-.9,2-2,2H5.5c-1.1,0-2-.9-2-2V6.5C3.5,3.19,6.19.5,9.5.5Z"/>
+  <path class="cls-1" d="M3.5,17h-1.8c-.66,0-1.2-.72-1.2-1.6v-4.8c0-.88.54-1.6,1.2-1.6h1.8"/>
+  <path class="cls-1" d="M35.5,9h1.8c.66,0,1.2.72,1.2,1.6v4.8c0,.88-.54,1.6-1.2,1.6h-1.8"/>
+  <line class="cls-1" x1="3.5" y1="7.5" x2="35.5" y2="7.5"/>
+  <line class="cls-2" x1="3.5" y1="21.5" x2="35.5" y2="21.5"/>
+</svg>
